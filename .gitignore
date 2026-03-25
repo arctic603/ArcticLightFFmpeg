@@ -1,0 +1,39 @@
+# VS 临时文件
+.vs/
+
+# 编译输出目录
+x64/
+x86/
+Debug/
+Release/
+**/x64/
+**/x86/
+**/Debug/
+**/Release/
+
+# VS 用户配置（可选保留，这里排除）
+*.vcxproj.user
+
+# Qt 构建中间产物
+**/FFmpegArcQt/x64/
+**/FFmpegArcQt/x86/
+
+# 构建日志
+*.tlog
+*.log
+
+# 编译中间文件
+*.obj
+*.pch
+*.ipch
+*.idb
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+
+# ffmpeg 库目录（二进制库不入库，太大）
+ffmpeg/lib/
+ffmpeg/bin/
