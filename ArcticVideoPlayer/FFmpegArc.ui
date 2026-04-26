@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1039</width>
-    <height>824</height>
+    <width>1038</width>
+    <height>862</height>
    </rect>
   </property>
   <property name="font">
@@ -362,8 +362,8 @@ QSlider::add-page:horizontal {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1039</width>
-     <height>20</height>
+     <width>1038</width>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuNone">
